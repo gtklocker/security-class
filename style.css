@@ -36,6 +36,11 @@ h1 {
     color: #fff;
     font-size: 48px;
     font-weight: 200;
+    margin-top: 10px;
+}
+h1 img {
+    vertical-align: middle; 
+    margin-right: 10px;
 }
 #header h2 {
     color: #fff;
