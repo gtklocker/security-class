@@ -12,7 +12,7 @@ div.universe {
     font-size: 18px;
     font-weight: 200;
     background-color: #fff;
-    width: 900px;
+    max-width: 900px;
     padding: 10px 20px;
     margin: 20px auto;
     border-right: 1px solid #ddd;
@@ -131,19 +131,11 @@ h2:first-child:before {
 #footer a {
     color: white;
 }
-.block {
-    width: 600px;
-    margin: auto;
-    border: 1px solid #ddd;
-    background-color: #eee;
-    padding: 5px;
-    border-radius: 5px;
-}
 .faces {
     margin: 0 auto 40px auto;
     text-align: center;
     padding: 0;
-    width: 480px;
+    max-width: 480px;
 }
 .faces img {
     width: 200px;
@@ -175,6 +167,7 @@ h2:first-child:before {
 .publication-commitment h2 {
     font-size: 48px;
     font-weight: 200;
+    line-height: 60px;
 }
 .bubble-icon {
     background-color: #222;
@@ -201,11 +194,11 @@ h2:first-child:before {
 .bubbles {
     padding: 0;
     margin: 40px 0 0 0;
-    height: 200px;
 }
 .bubbles li {
     float: left;
     width: 25%;
+    min-width: 200px;
     text-align: center;
 }
 .bubbles li .bubble-icon {
