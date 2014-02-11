@@ -9,6 +9,5 @@ $.get('main.md', function(md) {
     Object.keys(customHTML).forEach(function (key) {
         html = html.replace(key, customHTML[key]);
     });
-    console.log(html);
     $('.content').html(html);
 });

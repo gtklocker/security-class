@@ -3,21 +3,21 @@ html {
     background-image: url('images/background.png');
 }
 body {
-    font-family: "Trebuchet MS";
-    font-size: 90%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0;
-    line-height: 26px;
+    line-height: 1.7em;
 }
 div.universe {
+    font-size: 18px;
+    font-weight: 200;
     background-color: #fff;
     width: 900px;
     padding: 10px 20px;
-    margin: 0 auto 50px auto;
-    border-right: 1px solid #ccc;
-    border-left: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
-    border-radius: 3px;
+    margin: 20px auto;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
 }
 li {
 }
@@ -31,6 +31,20 @@ ul {
 }
 p {
     padding: 0;
+}
+h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 200;
+}
+#header h2 {
+    color: #fff;
+    opacity: 0.6;
+    font-weight: 200;
+}
+.universe h2 {
+    font-size: 30px;
+    font-weight: 300;
 }
 h1, h2 {
     font-weight: normal;
@@ -48,6 +62,9 @@ iframe {
 }
 h1, h2 {
     padding: 20px 0 0 0;
+}
+h2:first-child {
+    padding-top: 0;
 }
 a, a:active, a:visited {
     color: #0063dc;
@@ -73,13 +90,20 @@ h2:before {
     margin-bottom: 15px;
     z-index: 1;
 }
-#footer {
+h2:first-child:before {
+    content: none;
+    display: none;
+}
+#footer, #header {
     padding: 20px;
     text-align: center;
     background-color: #222;
     color: #ccc;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
     border-top: 1px solid #999;
+}
+#header {
+    padding-bottom
 }
 #footer a {
     color: white;
