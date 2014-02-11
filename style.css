@@ -217,21 +217,20 @@ h2:first-child:before {
 a.bitcoin {
     margin-left: 2px;
     padding: 2px;
-    background-color: #F7C38F;
+    background-color: #f7c38f;
     color: #333;
     border: 1px dotted #FF9124;
     border-radius: 5px;
-}
-a.bitcoin:before {
-    content: '';
-    display: inline-block;
+    font-weight: normal;
     background-image: url('images/bitcoin.png');
-    background-size: contain;
-    width: 20px;
-    height: 20px;
-    margin: 0 2px 0 0;
-    position: relative;
-    top: 4px;
+    background-repeat: no-repeat;
+    background-position: 2px 1px;
+    background-size: 20px 20px;
+    padding-left: 24px;
+    font-size: 80%;
+    padding: 4px 2px 4px 24px;
+}
+a.bitcoin:hover {
 }
 a.bitcoin, a.bitcoin:active, a.bitcoin:visited {
     color: #B44F00 !important;
