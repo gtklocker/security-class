@@ -62,9 +62,14 @@
 
             $( 'canvas' ).mouseover( function() {
                 SPEED = 1;
+                window.top.cube.over();
             } );
             $( 'canvas' ).mouseout( function() {
                 SPEED = 0.25;
+                window.top.cube.out();
+            } );
+            $( 'canvas' ).click( function() {
+                window.top.cube.click();
             } );
         </script>
     </body>
