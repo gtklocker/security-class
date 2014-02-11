@@ -69,11 +69,11 @@ div.cube {
     display: block;
     margin: auto;
     position: relative;
-    -webkit-transition: -webkit-transform 1s;
-    -webkit-transform: scale(0.7);
+    transition: transform 1s;
+    transform: scale(0.7);
 }
 .cube iframe:hover {
-    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 .cube-loading {
     position: fixed;
@@ -153,10 +153,10 @@ h2:first-child:before {
     margin: 0 20px;
 }
 .faces li {
-    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s;
 }
 .faces li:hover {
-    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .clearfix:after {
     content: "";
@@ -209,10 +209,10 @@ h2:first-child:before {
     text-align: center;
 }
 .bubbles li .bubble-icon {
-    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s;
 }
 .bubbles li:hover .bubble-icon {
-    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 a.bitcoin {
     margin-left: 2px;
