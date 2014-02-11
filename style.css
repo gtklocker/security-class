@@ -140,7 +140,7 @@ h2:first-child:before {
     border-radius: 5px;
 }
 .faces {
-    margin: 0 auto 30px auto;
+    margin: 0 auto 40px auto;
     text-align: center;
     padding: 0;
     width: 480px;
@@ -152,8 +152,65 @@ h2:first-child:before {
     border-radius: 200px;
     margin: 0 20px;
 }
-.faces:after {
+.faces li {
+    -webkit-transition: -webkit-transform 1s;
+}
+.faces li:hover {
+    -webkit-transform: scale(1.1);
+}
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
+}
+
+.publication-commitment {
+    background-color: white;
+    text-align: center;
+    padding: 0 50px 20px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+.publication-commitment h2 {
+    font-size: 48px;
+    font-weight: 200;
+}
+.bubble-icon {
+    background-color: #222;
+    border-radius: 100px;
+    display: block;
+    padding: 30px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 135px;
+    margin: 10px auto 20px auto;
+}
+.bubble-icon img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -3px;
+    display: block;
+}
+.bubble-icon.offset img {
+    top: 5px;
+}
+.bubbles {
+    padding: 0;
+    margin: 40px 0 0 0;
+    height: 200px;
+}
+.bubbles li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.bubbles li .bubble-icon {
+    -webkit-transition: -webkit-transform 1s;
+}
+.bubbles li:hover .bubble-icon {
+    -webkit-transform: scale(1.1);
 }
