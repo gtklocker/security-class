@@ -99,7 +99,6 @@ h2:first-child:before {
     text-align: center;
     background-color: #222;
     color: #ccc;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
     border-top: 1px solid #999;
 }
 #header {
