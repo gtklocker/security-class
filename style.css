@@ -55,16 +55,34 @@ h1 img {
 h1, h2, h3 {
     font-weight: normal;
 }
-iframe {
+div.cube {
     border: 0;
     width: 100px;
-    height: 100px;
+    height: 110px;
     display: block;
     margin: auto;
-    float: right;
+}
+.cube iframe {
+    border: 0;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
     position: relative;
-    top: -100px;
-    z-index: 0;
+    -webkit-transition: -webkit-transform 1s;
+    -webkit-transform: scale(0.7);
+}
+.cube iframe:hover {
+    -webkit-transform: scale(1);
+}
+.cube-loading {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
 }
 h1, h2 {
     padding: 20px 0 0 0;

@@ -6,4 +6,18 @@ $.get('main.md', function(md) {
         html = html.replace(key, customHTML[key]);
     });
     $('.content').html(html);
+    contentLoaded();
 });
+var iframe;
+function contentLoaded() {
+    iframe = document.getElementsByTagName('iframe')[0];
+};
+var cube = {
+    over: function() {
+    },
+    out: function() {
+    },
+    click: function() {
+        iframe.style.display = 'none';
+    }
+};
