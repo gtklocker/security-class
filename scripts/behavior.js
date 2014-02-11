@@ -1,9 +1,5 @@
-var customHTML = {
-    '{{cube}}': "<iframe src='webgl-seminar/demos/2-shading/6-companion-cube-shaded.html'></iframe>",
-    '{{block}}': '<div class="block">',
-    '{{/block}}': '</div>',
-    '<p></p>': ''
-};
+var customHTML = {};
+
 $.get('main.md', function(md) {
     var html = markdown.toHTML(md);
     Object.keys(customHTML).forEach(function (key) {

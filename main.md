@@ -1,6 +1,5 @@
 Πότε;
 -----
-
 Για δύο ώρες την ημέρα **18:00 - 20:00** σε 5 συναντήσεις:
 
 1. **Παρασκευή 14 Φεβρουαρίου**: GPG & κρυπτογραφία
@@ -11,7 +10,8 @@
 
 Πού;
 ----
-{{cube}}
+<iframe src='webgl-seminar/demos/2-shading/6-companion-cube-shaded.html'></iframe>
+
 **[The Cube](http://thecube.gr/)** στην Αθήνα, Κλεισόβης 8. [Δες εδώ πώς μπορείς να έρθεις](https://www.google.com/maps?daddr=The+Cube+Athens,+Klisovis+8,+Athina,+106+77,+Kentrikos+Tomeas+Athinon,+Greece&hl=en&sll=37.985406,23.732071&sspn=0.006291,0.011362&geocode=FX6cQwIdZx9qASGgaDKWpEDVASl9qh8gMb2hFDGgaDKWpEDVAQ&oq=The+Cube+Athens,+Klisovis+8,+Athina+106+77,+Greece&dirflg=r&ttype=now&noexp=0&noal=0&sort=def&mra=ls&t=m&z=17&start=0).
 
 Τι πρέπει να ξέρω;
