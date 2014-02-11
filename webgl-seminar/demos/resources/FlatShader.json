@@ -1,0 +1,40 @@
+{
+    "library": {
+        "BasicShader": {
+            "class": "Shader",
+            "data": {
+                "vertexSource": [
+                    "attribute vec3 Position;",
+                    "attribute vec3 Normal;",
+                    "uniform mat4 WorldViewProjectionMatrix;",
+                    "uniform mat4 WorldViewMatrix;",
+                    "attribute vec2 UVCoord;",
+                    "varying vec2 fragUVCoord;",
+
+                    "varying vec3 N;",
+
+                    "void main() {",
+                        "mat4 foo = WorldViewMatrix;",
+                        "foo[ 3 ] = vec4( 0.0, 0.0, 0.0, 1.0 );",
+                        "N = ( foo * vec4( Normal, 1.0 ) ).xyz;",
+                        "fragUVCoord = UVCoord;",
+                        "gl_Position = WorldViewProjectionMatrix * vec4( Position, 1.0 );",
+                    "}"
+                ],
+                "fragmentSource": [
+                    "precision highp float;",
+                    "varying vec3 N;",
+                    "vec3 light = vec3( 0, 2, 10 );",
+                    "varying vec2 fragUVCoord;",
+                    "uniform sampler2D texture;",
+
+                    "void main(){",
+                        "vec3 color = max( dot( normalize( N ), normalize( light ) ), 0.0 ) * texture2D( texture, fragUVCoord ).rgb;",
+                        "gl_FragColor = vec4( color, 1.0 );",
+                    "}"
+                ]
+            }
+        }
+    },
+    "object": "BasicShader"
+}
