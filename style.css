@@ -8,6 +8,7 @@ body {
     line-height: 1.7em;
 }
 div.universe {
+    position: relative;
     font-size: 18px;
     font-weight: 200;
     background-color: #fff;
@@ -51,7 +52,7 @@ h1 img {
     font-size: 30px;
     font-weight: 300;
 }
-h1, h2 {
+h1, h2, h3 {
     font-weight: normal;
 }
 iframe {
@@ -119,4 +120,22 @@ h2:first-child:before {
     background-color: #eee;
     padding: 5px;
     border-radius: 5px;
+}
+.faces {
+    margin: 0 auto 30px auto;
+    text-align: center;
+    padding: 0;
+    width: 480px;
+}
+.faces img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 200px;
+    margin: 0 20px;
+}
+.faces:after {
+    content: "";
+    display: table;
+    clear: both;
 }

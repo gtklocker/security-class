@@ -33,7 +33,14 @@
 
 Ποιοι είστε;
 ------------
-Είμαστε ο [Πέτρος](https://twitter.com/petrosagg) κι ο [Διονύσης](https://twitter.com/dionyziz), φοιτητές στο [πολυτεχνείο](http://ece.ntua.gr/). Μας βοηθάνε επίσης ο [Σωκράτης](https://twitter.com/sokratisvidros), ο [Κωστής](https://twitter.com/gtklocker), ο [Γιώργος](https://void.gr/), ο **Λάζαρος**, ο [Νικόλας](https://twitter.com/Renelvon), κι ο [Γιώργος](https://twitter.com/sophron_).
+Είμαστε ο [Πέτρος](https://twitter.com/petrosagg) κι ο [Διονύσης](https://twitter.com/dionyziz), φοιτητές στο [πολυτεχνείο](http://ece.ntua.gr/).
+
+<ul class="faces">
+    <li><a href="https://twitter.com/petrosagg"><img src="images/petrosagg.jpg" alt="petrosagg" /></a></li>
+    <li><a href="https://twitter.com/dionyziz"><img src="images/dionyziz.jpg" alt="dionyziz" /></a></li>
+</ul>
+
+Μας βοηθάνε επίσης ο [Σωκράτης](https://twitter.com/sokratisvidros), ο [Κωστής](https://twitter.com/gtklocker), ο [Γιώργος](https://void.gr/), ο **Λάζαρος**, ο [Νικόλας](https://twitter.com/Renelvon), κι ο [Γιώργος](https://twitter.com/sophron_).
 
 Δημοσίευση υλικού
 -----------------
