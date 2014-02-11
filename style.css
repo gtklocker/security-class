@@ -120,3 +120,28 @@ h2:first-child:before {
     padding: 5px;
     border-radius: 5px;
 }
+a.bitcoin {
+    margin-left: 2px;
+    padding: 2px;
+    background-color: #F7C38F;
+    color: #333;
+    border: 1px dotted #FF9124;
+    border-radius: 5px;
+}
+a.bitcoin:before {
+    content: '';
+    display: inline-block;
+    background-image: url('images/bitcoin.png');
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px 0 0;
+    position: relative;
+    top: 4px;
+}
+a.bitcoin, a.bitcoin:active, a.bitcoin:visited {
+    color: #B44F00 !important;
+}
+a.bitcoin:hover {
+    text-decoration: none;
+}
