@@ -43,3 +43,12 @@
 </ul>
 
 Μας βοηθάνε επίσης ο [Σωκράτης](https://twitter.com/sokratisvidros), ο [Κωστής](https://twitter.com/gtklocker), ο [Γιώργος](https://void.gr/), ο **Λάζαρος**, ο [Νικόλας](https://twitter.com/Renelvon), κι ο [Γιώργος](https://twitter.com/sophron_).
+
+<ul class="faces clearfix">
+    <li><a href="https://twitter.com/sokratisvidros"><img src="https://www.gravatar.com/avatar/a2827fa33bfa6df874697c63373fc7dd?s=400" alt="sokratisvidros" /></a></li>
+    <li><a href="https://twitter.com/gtklocker"><img src="https://www.gravatar.com/avatar/82628d534722acba1bbd2768f6d8c559?s=400" alt="gtklocker" /></a></li>
+    <li><a href="https://twitter.com/kargig"><img src="https://www.gravatar.com/avatar/5e81d893294a1f25ac8478ce816d2bd8?s=400" alt="kargig" /></a></li>
+    <li><img src="images/anonymous.jpg" alt="lazaros" /></li>
+    <li><a href="https://twitter.com/renelvon"><img src="https://graph.facebook.com/renelvon/picture?type=large" alt="renelvon" /></a></li>
+    <li><a href="https://twitter.com/sophron_"><img src="https://www.gravatar.com/avatar/c51803804b2667b809256105ec574ab4?s=400" alt="sophron" /></a></li>
+</ul>
