@@ -135,20 +135,13 @@ h2:first-child:before {
     margin: 0 auto 40px auto;
     text-align: center;
     padding: 0;
-    max-width: 480px;
 }
 .faces img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     float: left;
     border-radius: 200px;
     margin: 0 20px;
-}
-.faces li {
-    transition: transform 1s;
-}
-.faces li:hover {
-    transform: scale(1.1);
 }
 .clearfix:after {
     content: "";
