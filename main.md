@@ -1,8 +1,3 @@
-Στον αέρα
----------
-
-<iframe src="//www.ustream.tv/embed/16669704?wmode=direct" style="border: 0 none transparent;" frameborder="no" width="480" height="302"></iframe>
-
 Πότε;
 -----
 Για δύο ώρες τη μέρα **18:00 - 20:00** σε 5 συναντήσεις:
