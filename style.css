@@ -143,6 +143,12 @@ h2:first-child:before {
     border-radius: 200px;
     margin: 0 20px;
 }
+.flowerfaces {
+	text-align: left;
+}
+.flowerfaces p {
+	margin: 0 0 0 150px;
+}
 .clearfix:after {
     content: "";
     display: table;
