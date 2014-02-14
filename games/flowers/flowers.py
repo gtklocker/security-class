@@ -107,7 +107,9 @@ email_msg(smtp_username, smtp_password, victim_address, msg)
 
 # Update the md file with the new record.
 search_line = '<!--- store after this -->\n'
-line_to_add = "* Ο %s κέρδισε τον %s στέλνοντας μήνυμα από τον Η/Υ του '%s'. (%s)\n" % \
-            (mask_mail(perpetrator_address), mask_mail(victim_address), perpetrator_message,  \
-            strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+line_to_add = "<li><h2>%s</h2>\n\t<p>Επιτιθέμενος: %s</p>\n\t<p>Μήνυμα: " \
+              "%s</p>\n\t<p>Κατοχυρώθηκε: %s</p>\n</li>\n" % \
+              (mask_mail(perpetrator_address), mask_mail(victim_address), perpetrator_message, \
+              strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+
 add_line_to_file(md_file, search_line, line_to_add)
