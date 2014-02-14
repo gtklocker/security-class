@@ -30,15 +30,7 @@ def mask_mail(mail):
     Mask email address to avoid spamming.
     """
 
-    MAILPROG = re.compile("([A-Za-z0-9._%+-]+)[@]([A-Za-z0-9.-]+)[.]([A-Za-z]{2,4})") 
-    r = MAILPROG.match(mail)
-    # Parsing error.
-    if not r:
-        sys.exit()
-    cut = int((len(r.group(1))-2) /2)
-    name = r.group(1)[:-cut]
-    middle = r.group(2)[0]+"..."+r.group(2)[-1]
-    mail = name +"...@"+  middle + "." +  r.group(3)
+    mail = mail.replace("@", " [at] ")
     return mail
 
 def email_msg(smtp_username, smtp_password, recipient, msg):
@@ -83,6 +75,9 @@ perpetrator_message = form.getvalue("perpetrator_message")
 victim_name = form.getvalue("victim_name")
 victim_address = form.getvalue("victim_address")
 
+if not perpetrator_message:
+    perpetrator_message = "-"
+
 # Grab the config values.
 smtp_username = config_section_map("Flowers")["smtp_username"]
 smtp_password = config_section_map("Flowers")["smtp_password"]
@@ -100,6 +95,12 @@ if not perpetrator_address \
   len(perpetrator_message) > 200:
     sys.exit()
 
+# Now escape.
+perpetrator_address = cgi.escape(perpetrator_address)
+perpetrator_message = cgi.escape(perpetrator_message)
+victim_name = cgi.escape(victim_name)
+victim_address = cgi.escape(victim_address)
+
 # Author the message to send.
 msg = "From: flowers@security-class.gr\nTo: %s\nSubject: Ξεκλείδωτος Η/Υ\n\nΓεια σου %s, " \
       "\n\nΑπ' ότι φαίνεται ο κάτοχος της διεύθυνσης %s έστειλε ένα email \nαπό τον υπολογιστή σου, " \
@@ -112,7 +113,9 @@ email_msg(smtp_username, smtp_password, victim_address, msg)
 
 # Update the md file with the new record.
 search_line = '<!--- store after this -->\n'
-line_to_add = "* Ο %s κέρδισε τον %s στέλνοντας μήνυμα από τον Η/Υ του '%s'. (%s)\n" % \
-            (mask_mail(perpetrator_address), mask_mail(victim_address), perpetrator_message,  \
-            strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+line_to_add = "<li><h2>%s</h2>\n\t<p>Επιτιθέμενος: %s</p>\n\t<p>Μήνυμα: " \
+              "%s</p>\n\t<p>Κατοχυρώθηκε: %s</p>\n</li>\n" % \
+              (mask_mail(perpetrator_address), mask_mail(victim_address), perpetrator_message, \
+              strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+
 add_line_to_file(md_file, search_line, line_to_add)
