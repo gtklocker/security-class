@@ -33,7 +33,10 @@ ul {
 p {
     padding: 0;
 }
-h1 {
+#header a:hover {
+	text-decoration: none;
+}
+#header a {
     color: #fff;
     font-size: 48px;
     font-weight: 200;
