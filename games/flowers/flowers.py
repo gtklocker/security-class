@@ -95,6 +95,12 @@ if not perpetrator_address \
   len(perpetrator_message) > 200:
     sys.exit()
 
+# Now escape.
+perpetrator_address = cgi.escape(perpetrator_address)
+perpetrator_message = cgi.escape(perpetrator_message)
+victim_name = cgi.escape(victim_name)
+victim_address = cgi.escape(victim_address)
+
 # Author the message to send.
 msg = "From: flowers@security-class.gr\nTo: %s\nSubject: Ξεκλείδωτος Η/Υ\n\nΓεια σου %s, " \
       "\n\nΑπ' ότι φαίνεται ο κάτοχος της διεύθυνσης %s έστειλε ένα email \nαπό τον υπολογιστή σου, " \
