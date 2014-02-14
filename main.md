@@ -2,7 +2,7 @@
 -----
 Για δύο ώρες τη μέρα **18:00 - 20:00** σε 5 συναντήσεις:
 
-1. **Παρασκευή 14 Φεβρουαρίου**: GPG & κρυπτογραφία (**[LIVE](https://plus.google.com/events/curd3di754m99mfonj3li01tofo)**)
+1. **Παρασκευή 14 Φεβρουαρίου**: GPG & κρυπτογραφία (**[LIVE](https://plus.google.com/hangouts/_/72cpietln4fb658tfd62tbebjs?hl=en)**)
 1. **Δευτέρα 17 Φεβρουαρίου**: HTTPS, HSTS, ARP, BREACH
 1. **Τρίτη 18 Φεβρουαρίου**: Ασφάλεια web εφαρμογών
 1. **Τετάρτη 19 Φεβρουαρίου**: Tor, OTR, Bitcoin
