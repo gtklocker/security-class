@@ -75,6 +75,9 @@ perpetrator_message = form.getvalue("perpetrator_message")
 victim_name = form.getvalue("victim_name")
 victim_address = form.getvalue("victim_address")
 
+if not perpetrator_message:
+    perpetrator_message = "-"
+
 # Grab the config values.
 smtp_username = config_section_map("Flowers")["smtp_username"]
 smtp_password = config_section_map("Flowers")["smtp_password"]
