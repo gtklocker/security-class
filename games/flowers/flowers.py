@@ -30,15 +30,7 @@ def mask_mail(mail):
     Mask email address to avoid spamming.
     """
 
-    MAILPROG = re.compile("([A-Za-z0-9._%+-]+)[@]([A-Za-z0-9.-]+)[.]([A-Za-z]{2,4})") 
-    r = MAILPROG.match(mail)
-    # Parsing error.
-    if not r:
-        sys.exit()
-    cut = int((len(r.group(1))-2) /2)
-    name = r.group(1)[:-cut]
-    middle = r.group(2)[0]+"..."+r.group(2)[-1]
-    mail = name +"...@"+  middle + "." +  r.group(3)
+    mail = mail.replace("@", " [at] ")
     return mail
 
 def email_msg(smtp_username, smtp_password, recipient, msg):
