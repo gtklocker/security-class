@@ -5,7 +5,7 @@
 1. **Παρασκευή 14 Φεβρουαρίου**
  * GPG & κρυπτογραφία
  * [Εισαγωγικές διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/00_administrativa.pdf)
- * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/01_GPG.pptx)
+ * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/01_GPG.pdf)
 1. **Δευτέρα 17 Φεβρουαρίου**
  * HTTPS, HSTS, ARP, BREACH
 1. **Τρίτη 18 Φεβρουαρίου**
