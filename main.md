@@ -53,7 +53,7 @@
     <li><a href="https://twitter.com/dionyziz"><img src="images/dionyziz.jpg" alt="dionyziz" /></a></li>
 </ul>
 
-Μας βοηθάνε επίσης ο [Σωκράτης](https://twitter.com/sokratisvidros), ο [Κωστής](https://twitter.com/gtklocker), ο [Γιώργος](https://void.gr/), ο **Λάζαρος**, ο [Νικόλας](https://twitter.com/Renelvon), ο [Γιώργος](https://twitter.com/sophron_) κι ο **Στέφανος** .
+Μας βοηθάνε επίσης ο [Σωκράτης](https://twitter.com/sokratisvidros), ο [Κωστής](https://twitter.com/gtklocker), ο [Γιώργος](https://void.gr/), ο **Λάζαρος**, ο [Νικόλας](https://twitter.com/Renelvon), ο [Γιώργος](https://twitter.com/sophron_) κι ο **Στέφανος**.
 
 <ul class="faces clearfix">
     <li><a href="https://twitter.com/sokratisvidros"><img src="https://www.gravatar.com/avatar/a2827fa33bfa6df874697c63373fc7dd?s=400" alt="sokratisvidros" /></a></li>
