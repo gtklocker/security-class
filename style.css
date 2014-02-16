@@ -233,3 +233,14 @@ a.bitcoin, a.bitcoin:active, a.bitcoin:visited {
 a.bitcoin:hover {
     text-decoration: none;
 }
+code {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    padding: 2px;
+}
+pre code {
+    display: block;
+    margin: 20px 0;
+    overflow: auto;
+    padding: 20px;
+}
