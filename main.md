@@ -1,3 +1,6 @@
+﻿<iframe src="//www.ustream.tv/embed/16669704?wmode=direct" style="border: 0 none transparent;" frameborder="no" width="480" height="302"></iframe><br />
+<a href="http://www.ustream.tv/" style="padding: 2px 0px 4px; width: 400px; background: #ffffff; display: block; color: #000000; font-weight: normal; font-size: 10px; text-decoration: underline; text-align: center;" target="_blank">Live streaming video by Ustream</a>
+
 Πότε;
 -----
 Για δύο ώρες τη μέρα **18:00 - 20:00** σε 5 συναντήσεις:
@@ -16,7 +19,7 @@
  * Tor, OTR, Bitcoin
 1. **Παρασκευή 21 Φεβρουαρίου**
  * Κρυπτογράφηση δίσκου, φυσικές επιθέσεις
-
+	
 Πού;
 ----
 **[The Cube](http://thecube.gr/)** στην Αθήνα, Κλεισόβης 8. [Δες εδώ πώς μπορείς να έρθεις](https://www.google.com/maps?daddr=The+Cube+Athens,+Klisovis+8,+Athina,+106+77,+Kentrikos+Tomeas+Athinon,+Greece&hl=en&sll=37.985406,23.732071&sspn=0.006291,0.011362&geocode=FX6cQwIdZx9qASGgaDKWpEDVASl9qh8gMb2hFDGgaDKWpEDVAQ&oq=The+Cube+Athens,+Klisovis+8,+Athina+106+77,+Greece&dirflg=r&ttype=now&noexp=0&noal=0&sort=def&mra=ls&t=m&z=17&start=0).
