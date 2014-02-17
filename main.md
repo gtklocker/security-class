@@ -1,5 +1,6 @@
 ﻿<iframe src="//www.ustream.tv/embed/16669704?wmode=direct" style="border: 0 none transparent;" frameborder="no" width="480" height="302"></iframe><br />
 <a href="http://www.ustream.tv/" style="padding: 2px 0px 4px; width: 400px; background: #ffffff; display: block; color: #000000; font-weight: normal; font-size: 10px; text-decoration: underline; text-align: center;" target="_blank">Live streaming video by Ustream</a>
+
 Πότε;
 -----
 Για δύο ώρες τη μέρα **18:00 - 20:00** σε 5 συναντήσεις:
