@@ -75,6 +75,10 @@ div.cube {
     transition: transform 1s;
     transform: scale(0.7);
 }
+iframe {
+	margin: auto;
+	display: block;
+}
 .cube iframe:hover {
     transform: scale(1);
 }
