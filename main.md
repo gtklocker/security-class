@@ -12,6 +12,7 @@
  * HTTPS, HSTS, ARP, BREACH
 1. **Τρίτη 18 Φεβρουαρίου**
  * Ασφάλεια web εφαρμογών
+ * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/03_web.pdf)
 1. **Τετάρτη 19 Φεβρουαρίου**
  * Tor, OTR, Bitcoin
 1. **Παρασκευή 21 Φεβρουαρίου**
