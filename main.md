@@ -12,11 +12,14 @@
  * [1η άσκηση](#exercises/1)
 1. **Δευτέρα 17 Φεβρουαρίου**
  * HTTPS, HSTS, ARP, BREACH
+ * [Διαφάνειες HTTPS](https://github.com/gtklocker/security-class/raw/master/slides/02_HTTPS.pdf)
+ * [Διαφάνειες BREACH](https://github.com/gtklocker/security-class/raw/master/slides/02_BREACH.pdf)
 1. **Τρίτη 18 Φεβρουαρίου**
  * Ασφάλεια web εφαρμογών
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/03_web.pdf)
 1. **Τετάρτη 19 Φεβρουαρίου**
  * Tor, OTR, Bitcoin
+ * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/04_Bitcoin.pdf)
 1. **Παρασκευή 21 Φεβρουαρίου**
  * Κρυπτογράφηση δίσκου, φυσικές επιθέσεις
 
