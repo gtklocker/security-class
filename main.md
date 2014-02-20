@@ -1,4 +1,4 @@
-<iframe src="//www.ustream.tv/embed/16669704?wmode=direct" style="border: 0 none transparent;" frameborder="no" width="480" height="302"></iframe><br />
+<iframe src="//www.ustream.tv/embed/16669704?wmode=direct" style="border: 0 none transparent;" frameborder="no" width="480" height="302"></iframe>
 
 Πότε;
 -----
