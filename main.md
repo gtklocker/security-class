@@ -1,4 +1,6 @@
-<iframe src="//www.ustream.tv/embed/16669704?wmode=direct" style="border: 0 none transparent;" frameborder="no" width="480" height="302"></iframe>
+Το σεμινάριο ολοκληρώθηκε. Ευχαριστούμε που ήρθατε!
+
+Συνεχίζουμε να απαντάμε σε απορίες και να συζητάμε για ασφάλεια στη [mailing list](https://groups.google.com/forum/#!forum/security-class-gr).
 
 Πότε;
 -----
