@@ -14,6 +14,7 @@
  * [1η άσκηση](#exercises/1)
 1. **Δευτέρα 17 Φεβρουαρίου**
  * HTTPS, HSTS, ARP, BREACH
+ * [Βίντεο](https://www.youtube.com/watch?v=ZkIFiuL3DSM)
  * [Διαφάνειες HTTPS](https://github.com/gtklocker/security-class/raw/master/slides/02_HTTPS.pdf)
  * [Διαφάνειες BREACH](https://github.com/gtklocker/security-class/raw/master/slides/02_BREACH.pdf)
 1. **Τρίτη 18 Φεβρουαρίου**
