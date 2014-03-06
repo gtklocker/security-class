@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^([a-z]+)/([a-z]+)$ index.php?resource=$1&method=$2 [L,QSA]

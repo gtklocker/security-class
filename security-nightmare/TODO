@@ -1,0 +1,22 @@
+* SQL injection
+    userid in user delete is unescaped - assert allows code to pass through in models/user.php:delete
+* Blind SQL injection
+* XSS
+    Username echoed unescaped in input in login form views/session/create.php
+* Remote file inclusion
+* Constant forgot password link
+* Unsalted md5 for password hashing
+    models/user.php does not use proper hashing for password storage - md5 is insecure and it's unsalted
+* Shell injection
+* Forgot password token empty on register
+* Forgot password token empty after forgot password
+* Unauthenticated page to delete user account
+    controllers/user.php:delete does not authenticate
+* CSRF
+    No CSRF protection at all
+* GET without POST
+    index.php allows POST methods to be called via GET
+* Can login without password!
+    header() does not stop execution, so code passses through in controllers/session.php:create
+    allowing anyone to login with a correct username and any password
+* Open redirect
