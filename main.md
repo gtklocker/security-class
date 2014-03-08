@@ -19,6 +19,7 @@
  * [Διαφάνειες BREACH](https://github.com/gtklocker/security-class/raw/master/slides/02_BREACH.pdf)
 1. **Τρίτη 18 Φεβρουαρίου**
  * Ασφάλεια web εφαρμογών
+ * [Βίντεο](https://www.youtube.com/watch?v=j7_QpWzOsU4)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/03_web.pdf)
 1. **Τετάρτη 19 Φεβρουαρίου**
  * Tor, OTR, Bitcoin
