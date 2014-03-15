@@ -31,6 +31,7 @@
  * Τσικνοπέμπτη: BBQ για όλους! Bring your own beer.
 1. **Παρασκευή 21 Φεβρουαρίου**
  * Κρυπτογράφηση δίσκου, φυσικές επιθέσεις
+ * [Βίντεο](https://www.youtube.com/watch?v=oHC3zw5Hd9M)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/05_Physical.pdf)
 
 Πού;
