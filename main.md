@@ -17,6 +17,7 @@
  * [Βίντεο](https://www.youtube.com/watch?v=ZkIFiuL3DSM)
  * [Διαφάνειες HTTPS](https://github.com/gtklocker/security-class/raw/master/slides/02_HTTPS.pdf)
  * [Διαφάνειες BREACH](https://github.com/gtklocker/security-class/raw/master/slides/02_BREACH.pdf)
+ * [2η άσκηση](#exercises/2)
 1. **Τρίτη 18 Φεβρουαρίου**
  * Ασφάλεια web εφαρμογών
  * [Βίντεο](https://www.youtube.com/watch?v=j7_QpWzOsU4)
@@ -24,11 +25,6 @@
 1. **Τετάρτη 19 Φεβρουαρίου**
  * Tor, OTR, Bitcoin
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/04_Bitcoin.pdf)
-1. Intermezzo: **Πέμπτη 20 Φεβρουαρίου**
- * Δεν θα γίνει μάθημα
- * Θα μαζευτούμε ανεπίσημα για απάντηση σε απορίες γύρω από το φαγητό
- * 18:00 - 20:00
- * Τσικνοπέμπτη: BBQ για όλους! Bring your own beer.
 1. **Παρασκευή 21 Φεβρουαρίου**
  * Κρυπτογράφηση δίσκου, φυσικές επιθέσεις
  * [Βίντεο](https://www.youtube.com/watch?v=oHC3zw5Hd9M)
