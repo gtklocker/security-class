@@ -25,7 +25,6 @@
     SSLCertificateFile /etc/apache2/ssl/example.com.crt
     SSLCertificateChainFile /etc/apache2/ssl/sub.class1.server.ca.pem
     SSLCertificateKeyFile /etc/apache2/ssl/example.com.key
-    SSLCACertificateFile /etc/apache2/ssl/ca.pem
 
     SSLVerifyClient none
     SSLProxyEngine off 
