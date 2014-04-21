@@ -147,8 +147,8 @@ h2:first-child:before {
     padding: 0;
 }
 .faces img {
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
     float: left;
     border-radius: 200px;
     margin: 0 14px;
