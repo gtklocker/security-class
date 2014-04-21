@@ -19,8 +19,12 @@
         SSLRequireSSL
     </Directory>
 
-    SSLProtocol -all +TLSv1 +SSLv3
-    SSLCipherSuite HIGH:MEDIUM:!aNULL:+SHA1:+MD5:+HIGH:+MEDIUM
+    SSLProtocol -all +TLSv1 +SSLv3 +TLSv1.1 +TLSv1.2
+    SSLCipherSuite ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:!RC4:HIGH:!MD5:!aNULL:!EDH
+    SSLHonorCipherOrder on
+    SSLCompression off
+
+    Header add Strict-Transport-Security "max-age=15768000"
 
     SSLCertificateFile /etc/apache2/ssl/example.com.crt
     SSLCertificateChainFile /etc/apache2/ssl/sub.class1.server.ca.pem
