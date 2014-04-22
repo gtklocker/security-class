@@ -141,14 +141,14 @@ h2:first-child:before {
 #footer a {
     color: white;
 }
-.faces {
+ul.faces {
     margin: 0 auto 40px auto;
     text-align: center;
     padding: 0;
 }
-.faces img {
-    width: 100px !important;
-    height: 100px !important;
+ul.faces img {
+    width: 100px;
+    height: 100px;
     float: left;
     border-radius: 200px;
     margin: 0 14px;
