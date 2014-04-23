@@ -1,0 +1,256 @@
+html {
+    background-color: #eee;
+    background-image: url('images/background.png');
+}
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    line-height: 1.7em;
+}
+div.universe {
+    position: relative;
+    font-size: 18px;
+    font-weight: 200;
+    background-color: #fff;
+    max-width: 900px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+}
+div.universe img {
+    width: 100%;
+}
+li {
+}
+li img {
+    position: relative;
+    top: 11px;
+    margin-right: 5px;
+}
+ul {
+    list-style: none;
+}
+p {
+    padding: 0;
+}
+#header a:hover {
+	text-decoration: none;
+}
+#header a {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+h1 img {
+    vertical-align: middle; 
+    margin-right: 10px;
+}
+#header h2 {
+    color: #fff;
+    opacity: 0.6;
+    font-weight: 200;
+}
+.universe h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+h1, h2, h3 {
+    font-weight: normal;
+}
+div.cube {
+    border: 0;
+    width: 100px;
+    height: 110px;
+    display: block;
+    margin: auto;
+}
+.cube iframe {
+    border: 0;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    position: relative;
+    transition: transform 1s;
+    transform: scale(0.7);
+}
+iframe {
+	margin: auto;
+	display: block;
+}
+.cube iframe:hover {
+    transform: scale(1);
+}
+.cube-loading {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+}
+h1, h2 {
+    padding: 20px 0 0 0;
+}
+h2:first-child {
+    padding-top: 0;
+}
+a, a:active, a:visited {
+    color: #0063dc;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+h2:before {
+    content: ' ';
+
+    background: -moz-linear-gradient(left,  rgba(204,204,204,0) 0%, rgba(204,204,204,1) 50%, rgba(204,204,204,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(204,204,204,0)), color-stop(50%,rgba(204,204,204,1)), color-stop(100%,rgba(204,204,204,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(204,204,204,0) 0%,rgba(204,204,204,1) 50%,rgba(204,204,204,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(204,204,204,0) 0%,rgba(204,204,204,1) 50%,rgba(204,204,204,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(204,204,204,0) 0%,rgba(204,204,204,1) 50%,rgba(204,204,204,0) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(204,204,204,0) 0%,rgba(204,204,204,1) 50%,rgba(204,204,204,0) 100%); /* W3C */
+
+    width: 100%;
+    height: 1px;
+    display: block;
+    margin-bottom: 15px;
+    z-index: 1;
+}
+h2:first-child:before {
+    content: none;
+    display: none;
+}
+#footer, #header {
+    padding: 20px;
+    text-align: center;
+    background-color: #222;
+    color: #ccc;
+    border-top: 1px solid #999;
+}
+#header {
+    padding-bottom
+}
+#footer a {
+    color: white;
+}
+ul.faces {
+    margin: 0 auto 40px auto;
+    text-align: center;
+    padding: 0;
+}
+ul.faces img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 200px;
+    margin: 0 14px;
+}
+.flowerfaces {
+	text-align: left;
+}
+.flowerfaces p {
+	margin: 0 0 0 150px;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.publication-commitment {
+    background-color: white;
+    text-align: center;
+    padding: 0 50px 20px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+.publication-commitment h2 {
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 60px;
+}
+.bubble-icon {
+    background-color: #222;
+    border-radius: 100px;
+    display: block;
+    padding: 30px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 135px;
+    margin: 10px auto 20px auto;
+}
+.bubble-icon img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -3px;
+    display: block;
+}
+.bubble-icon.offset img {
+    top: 5px;
+}
+.bubbles {
+    padding: 0;
+    margin: 40px 0 0 0;
+}
+.bubbles li {
+    float: left;
+    width: 25%;
+    min-width: 200px;
+    text-align: center;
+}
+.bubbles li .bubble-icon {
+    transition: transform 1s;
+}
+.bubbles li:hover .bubble-icon {
+    transform: scale(1.1);
+}
+a.bitcoin {
+    margin-left: 2px;
+    padding: 2px;
+    background-color: #f7c38f;
+    color: #333;
+    border: 1px dotted #FF9124;
+    border-radius: 5px;
+    font-weight: normal;
+    background-image: url('images/bitcoin.png');
+    background-repeat: no-repeat;
+    background-position: 2px 1px;
+    background-size: 20px 20px;
+    padding-left: 24px;
+    font-size: 80%;
+    padding: 4px 2px 4px 24px;
+}
+a.bitcoin:hover {
+}
+a.bitcoin, a.bitcoin:active, a.bitcoin:visited {
+    color: #B44F00 !important;
+}
+a.bitcoin:hover {
+    text-decoration: none;
+}
+code {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    padding: 2px;
+}
+pre code {
+    display: block;
+    margin: 20px 0;
+    overflow: auto;
+    padding: 20px;
+}
+iframe[src*='ustream.tv'] {
+    padding-top: 20px;
+}

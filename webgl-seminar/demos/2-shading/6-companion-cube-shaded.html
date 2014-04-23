@@ -1,0 +1,76 @@
+<!--
+    Developers:
+        Petros Aggelatos <petros@kamibu.com>
+
+    Copyright (c) 2011, Petros Aggelatos
+    All rights reserved.
+
+    Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+    Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+    Neither the name of the Kamibu Limited nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computer Graphics</title>
+        <base href='..' />
+        <link rel='stylesheet' href='style.css' />
+        <style>
+            canvas {
+                -webkit-transition: opacity 1s;
+                -moz-transition: opacity 1s;
+                transition: opacity 1s;
+                opacity: 0.6;
+            }
+            canvas:hover {
+                opacity: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <script src='http://code.jquery.com/jquery-2.1.0.min.js'></script>
+        <script src='libraries/final-engine-debug.js'></script>
+        <script>
+            var app = new Application();
+            var X_AXIS = new Vector3( [ 1, 0, 0 ] );
+            var Y_AXIS = new Vector3( [ 0, 1, 0 ] );
+            var SPEED = 0.25;
+
+            var cube = null;
+            app.importer.load( 'WeightedCompanionCubeHearted.obj', function( node ) {
+                app.importer.load( 'FlatShader', function( shader ) { 
+                    cube = node;
+                    for ( var i = 0; i < node.children.length; i++ ) {
+                        cube.children[ i ].material.engineParameters.WorldViewMatrix = true;
+                        cube.children[ i ].material.shader = shader;
+                    }
+                    cube.setScale( 2 );
+                    app.scene.appendChild( cube );
+                    $( 'canvas' ).wrap( '<a href="http://thecube.gr" target="_top"></a>' );
+                } );
+            } );
+            app.update = function( dt ) {
+                if ( cube ) {
+                    cube.rotate( X_AXIS, SPEED * 0.01 * dt / 16 );
+                    cube.rotate( Y_AXIS, SPEED * 0.02 * dt / 16 );
+                }
+            };
+
+            $( 'canvas' ).mouseover( function() {
+                SPEED = 1;
+                window.top.cube.over();
+            } );
+            $( 'canvas' ).mouseout( function() {
+                SPEED = 0.25;
+                window.top.cube.out();
+            } );
+            $( 'canvas' ).click( function() {
+                window.top.cube.click();
+            } );
+        </script>
+    </body>
+</html>
