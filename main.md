@@ -8,6 +8,7 @@
 
 1. **Παρασκευή 14 Φεβρουαρίου**
  * GPG & κρυπτογραφία
+ * [Βίντεο](https://www.youtube.com/watch?v=DVFtfOl_V9c)
  * [Εισαγωγικές διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/00_administrativa.pdf)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/01_GPG.pdf)
  * Προτεινόμενη ανάγνωση: [GPG Handbook](http://www.gnupg.org/gph/en/manual.html)
