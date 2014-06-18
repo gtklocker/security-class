@@ -78,6 +78,6 @@
     <li><a href="https://twitter.com/kargig"><img src="https://www.gravatar.com/avatar/5e81d893294a1f25ac8478ce816d2bd8?s=400" alt="kargig" /></a></li>
     <li><img src="images/anonymous.jpg" alt="lazaros" /></li>
     <li><a href="https://twitter.com/renelvon"><img src="https://graph.facebook.com/renelvon/picture?type=large" alt="renelvon" /></a></li>
-    <li><a href="https://twitter.com/sophron_"><img src="https://www.gravatar.com/avatar/c51803804b2667b809256105ec574ab4?s=400" alt="sophron" /></a></li>
+    <li><a href="https://sophron.latthi.com"><img src="https://www.gravatar.com/avatar/c51803804b2667b809256105ec574ab4?s=400" alt="sophron" /></a></li>
     <li><img src="https://s.gravatar.com/avatar/f9295446361c9d7d231e4fc0c02321d1?s=400" alt="stefanosliv" /></a></li> 
 </ul>
