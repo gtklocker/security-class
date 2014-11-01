@@ -27,6 +27,7 @@
  * Tor, OTR, Bitcoin
  * [Βίντεο](https://www.youtube.com/watch?v=3QQg0ZKInMM)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/04_Bitcoin.pdf)
+ * [6η άσκηση](#exercises/6)
 1. **Παρασκευή 21 Φεβρουαρίου**
  * Κρυπτογράφηση δίσκου, φυσικές επιθέσεις
  * [Βίντεο](https://www.youtube.com/watch?v=oHC3zw5Hd9M)
