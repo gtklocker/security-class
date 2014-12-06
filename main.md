@@ -28,6 +28,7 @@
  * [Βίντεο](https://www.youtube.com/watch?v=3QQg0ZKInMM)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/04_Bitcoin.pdf)
  * [4η άσκηση](#exercises/4)
+ * [5η άσκηση](#exercises/5)
  * [6η άσκηση](#exercises/6)
 1. **Παρασκευή 21 Φεβρουαρίου**
  * Κρυπτογράφηση δίσκου, φυσικές επιθέσεις
