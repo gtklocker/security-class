@@ -63,7 +63,7 @@
     <li><a href="https://twitter.com/dionyziz"><img src="images/dionyziz.jpg" alt="dionyziz" /></a></li>
 </ul>
 
-Μας βοηθάνε επίσης ο [Σωκράτης](https://twitter.com/sokratisvidros), ο [Κωστής](https://twitter.com/gtklocker), ο [Γιώργος](https://void.gr/), ο **Λάζαρος**, ο [Νικόλας](https://twitter.com/Renelvon), ο [Γιώργος](https://twitter.com/sophron_) κι ο **Στέφανος**.
+Μας βοηθάνε επίσης ο [Σωκράτης](https://twitter.com/sokratisvidros), ο [Κωστής](https://twitter.com/gtklocker), ο [Γιώργος](https://void.gr/), ο **Λάζαρος**, ο [Νικόλας](https://twitter.com/Renelvon), ο [Γιώργος](https://twitter.com/sophron_), ο **Στέφανος** και ο [Δημήτρης](https://dimkarakostas.com).
 
 <ul class="faces clearfix">
     <li><a href="https://twitter.com/sokratisvidros"><img src="https://www.gravatar.com/avatar/a2827fa33bfa6df874697c63373fc7dd?s=400" alt="sokratisvidros" /></a></li>
@@ -72,7 +72,8 @@
     <li><img src="https://gravatar.com/avatar/25ee07895736523cf6939408c65ec7a7?s=400" alt="lazaros" /></li>
     <li><a href="https://twitter.com/renelvon"><img src="https://graph.facebook.com/renelvon/picture?type=large" alt="renelvon" /></a></li>
     <li><a href="https://sophron.latthi.com"><img src="https://www.gravatar.com/avatar/c51803804b2667b809256105ec574ab4?s=400" alt="sophron" /></a></li>
-    <li><img src="https://s.gravatar.com/avatar/f9295446361c9d7d231e4fc0c02321d1?s=400" alt="stefanosliv" /></a></li> 
+    <li><img src="https://s.gravatar.com/avatar/f9295446361c9d7d231e4fc0c02321d1?s=400" alt="stefanosliv" /></a></li>
+    <li><a href="https://dimkarakostas.com"><img src="https://pbs.twimg.com/profile_images/729272206941892608/Km_rtyL8.jpg?s=400" alt="dimkarakostas" /></a></li>
 </ul>
 
 Πού;
