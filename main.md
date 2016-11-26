@@ -12,13 +12,13 @@
  * [Εισαγωγικές διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/00_administrativa.pdf)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/01_GPG.pdf)
  * Προτεινόμενη ανάγνωση: [GPG Handbook](http://www.gnupg.org/gph/en/manual.html)
- * [1η άσκηση](#exercises/1)
+ * [1η άσκηση (GPG)](#exercises/1)
 1. **Δευτέρα 17 Φεβρουαρίου**
  * HTTPS, HSTS, ARP, BREACH
  * [Βίντεο](https://www.youtube.com/watch?v=ZkIFiuL3DSM)
  * [Διαφάνειες HTTPS](https://github.com/gtklocker/security-class/raw/master/slides/02_HTTPS.pdf)
  * [Διαφάνειες BREACH](https://github.com/gtklocker/security-class/raw/master/slides/02_BREACH.pdf)
- * [2η άσκηση](#exercises/2)
+ * [2η άσκηση (HTTPS)](#exercises/2)
 1. **Τρίτη 18 Φεβρουαρίου**
  * Ασφάλεια web εφαρμογών
  * [Βίντεο](https://www.youtube.com/watch?v=j7_QpWzOsU4)
@@ -27,9 +27,9 @@
  * Tor, OTR, Bitcoin
  * [Βίντεο](https://www.youtube.com/watch?v=3QQg0ZKInMM)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/04_Bitcoin.pdf)
- * [4η άσκηση](#exercises/4)
- * [5η άσκηση](#exercises/5)
- * [6η άσκηση](#exercises/6)
+ * [4η άσκηση (Bitcoin)](#exercises/4)
+ * [5η άσκηση (Tor hidden service)](#exercises/5)
+ * [6η άσκηση (OTR)](#exercises/6)
 1. **Παρασκευή 21 Φεβρουαρίου**
  * Κρυπτογράφηση δίσκου, φυσικές επιθέσεις
  * [Βίντεο](https://www.youtube.com/watch?v=oHC3zw5Hd9M)
