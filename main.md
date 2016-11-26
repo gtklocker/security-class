@@ -4,33 +4,33 @@
 
 Πότε;
 -----
-Για δύο ώρες τη μέρα **18:00 - 20:00** σε 5 συναντήσεις:
+Για δύο ώρες τη μέρα σε 5 μαθήματα:
 
-1. **Παρασκευή 14 Φεβρουαρίου**
+1. **Μάθημα 1**
  * GPG & κρυπτογραφία
  * [Βίντεο](https://www.youtube.com/watch?v=DVFtfOl_V9c)
  * [Εισαγωγικές διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/00_administrativa.pdf)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/01_GPG.pdf)
  * Προτεινόμενη ανάγνωση: [GPG Handbook](http://www.gnupg.org/gph/en/manual.html)
  * [1η άσκηση (GPG)](#exercises/1)
-1. **Δευτέρα 17 Φεβρουαρίου**
+1. **Μάθημα 2**
  * HTTPS, HSTS, ARP, BREACH
  * [Βίντεο](https://www.youtube.com/watch?v=ZkIFiuL3DSM)
  * [Διαφάνειες HTTPS](https://github.com/gtklocker/security-class/raw/master/slides/02_HTTPS.pdf)
  * [Διαφάνειες BREACH](https://github.com/gtklocker/security-class/raw/master/slides/02_BREACH.pdf)
  * [2η άσκηση (HTTPS)](#exercises/2)
-1. **Τρίτη 18 Φεβρουαρίου**
+1. **Μάθημα 3**
  * Ασφάλεια web εφαρμογών
  * [Βίντεο](https://www.youtube.com/watch?v=j7_QpWzOsU4)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/03_web.pdf)
-1. **Τετάρτη 19 Φεβρουαρίου**
+1. **Μάθημα 4**
  * Tor, OTR, Bitcoin
  * [Βίντεο](https://www.youtube.com/watch?v=3QQg0ZKInMM)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/04_Bitcoin.pdf)
  * [4η άσκηση (Bitcoin)](#exercises/4)
  * [5η άσκηση (Tor hidden service)](#exercises/5)
  * [6η άσκηση (OTR)](#exercises/6)
-1. **Παρασκευή 21 Φεβρουαρίου**
+1. **Μάθημα 5**
  * Κρυπτογράφηση δίσκου, φυσικές επιθέσεις
  * [Βίντεο](https://www.youtube.com/watch?v=oHC3zw5Hd9M)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/05_Physical.pdf)
@@ -52,13 +52,11 @@
 
 Πού γράφομαι;
 -------------
-Απλά έλα!
+Απλά ξεκίνα!
 
 * Το σεμινάριο είναι **δωρεάν**.
 * Δεν απαιτείται εγγραφή.
 * Μπορείς όμως να γραφτείς στη [λίστα μηνυμάτων μας στο Google Groups](https://groups.google.com/forum/#!forum/security-class-gr) ή να μπεις στην [ομάδα μας στο Facebook](https://www.facebook.com/groups/1449508148600922/).
-* Δήλωσε ότι θα έρθεις στα Facebook events για να ξέρουμε πόσοι θα είμαστε.
-* **Μην ξεχάσεις να φέρεις το laptop σου**! Θα "λερώσουμε τα χέρια μας".
 
 Πώς μπορώ να βοηθήσω;
 -----------------
