@@ -23,6 +23,7 @@
  * Ασφάλεια web εφαρμογών
  * [Βίντεο](https://www.youtube.com/watch?v=j7_QpWzOsU4)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/03_web.pdf)
+ * [3η άσκηση (DVWA)](#exercises/3)
 1. **Μάθημα 4**
  * Tor, OTR, Bitcoin
  * [Βίντεο](https://www.youtube.com/watch?v=3QQg0ZKInMM)
