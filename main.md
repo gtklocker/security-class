@@ -74,7 +74,7 @@
     <li><a href="https://twitter.com/renelvon"><img src="https://pbs.twimg.com/profile_images/1081004158/Meself1.jpg" alt="renelvon" /></a></li>
     <li><a href="https://sophron.latthi.com"><img src="https://www.gravatar.com/avatar/c51803804b2667b809256105ec574ab4?s=400" alt="sophron" /></a></li>
     <li><img src="https://s.gravatar.com/avatar/f9295446361c9d7d231e4fc0c02321d1?s=400" alt="stefanosliv" /></a></li>
-    <li><a href="https://dimkarakostas.com"><img src="https://pbs.twimg.com/profile_images/729272206941892608/Km_rtyL8.jpg?s=400" alt="dimkarakostas" /></a></li>
+    <li><a href="https://dimkarakostas.com"><img src="https://s.gravatar.com/avatar/2da57354b788d97556e3aba31e2470a9?s=400" alt="dimkarakostas" /></a></li>
 </ul>
 
 Πού;
