@@ -6,35 +6,76 @@
 -----
 Για δύο ώρες τη μέρα σε 5 μαθήματα:
 
-1. **Μάθημα 1**
+<ol>
+<li>
+
+**Μάθημα 1**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DVFtfOl_V9c" frameborder="0" allowfullscreen></iframe>
+
  * GPG & κρυπτογραφία
  * [Βίντεο](https://www.youtube.com/watch?v=DVFtfOl_V9c)
  * [Εισαγωγικές διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/00_administrativa.pdf)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/01_GPG.pdf)
  * Προτεινόμενη ανάγνωση: [GPG Handbook](http://www.gnupg.org/gph/en/manual.html)
  * [1η άσκηση (GPG)](#exercises/1)
-1. **Μάθημα 2**
+
+</li>
+
+<li>
+
+**Μάθημα 2**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZkIFiuL3DSM" frameborder="0" allowfullscreen></iframe>
+
  * HTTPS, HSTS, ARP, BREACH
  * [Βίντεο](https://www.youtube.com/watch?v=ZkIFiuL3DSM)
  * [Διαφάνειες HTTPS](https://github.com/gtklocker/security-class/raw/master/slides/02_HTTPS.pdf)
  * [Διαφάνειες BREACH](https://github.com/gtklocker/security-class/raw/master/slides/02_BREACH.pdf)
  * [2η άσκηση (HTTPS)](#exercises/2)
-1. **Μάθημα 3**
+
+</li>
+
+<li>
+
+**Μάθημα 3**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j7_QpWzOsU4" frameborder="0" allowfullscreen></iframe>
+
  * Ασφάλεια web εφαρμογών
  * [Βίντεο](https://www.youtube.com/watch?v=j7_QpWzOsU4)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/03_web.pdf)
  * [3η άσκηση (DVWA)](#exercises/3)
-1. **Μάθημα 4**
+
+</li>
+
+<li>
+
+**Μάθημα 4**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3QQg0ZKInMM" frameborder="0" allowfullscreen></iframe>
+
  * Tor, OTR, Bitcoin
  * [Βίντεο](https://www.youtube.com/watch?v=3QQg0ZKInMM)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/04_Bitcoin.pdf)
  * [4η άσκηση (Bitcoin)](#exercises/4)
  * [5η άσκηση (Tor hidden service)](#exercises/5)
  * [6η άσκηση (OTR)](#exercises/6)
-1. **Μάθημα 5**
+
+</li>
+
+<li>
+
+**Μάθημα 5**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oHC3zw5Hd9M" frameborder="0" allowfullscreen></iframe>
+
  * Κρυπτογράφηση δίσκου, φυσικές επιθέσεις
  * [Βίντεο](https://www.youtube.com/watch?v=oHC3zw5Hd9M)
  * [Διαφάνειες](https://github.com/gtklocker/security-class/raw/master/slides/05_Physical.pdf)
+
+</li>
+</ol>
 
 Τι πρέπει να ξέρω;
 ------------------
