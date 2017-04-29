@@ -1,9 +1,0 @@
-body, canvas {
-    margin: 0;
-    padding: 0;
-    background: white;
-}
-canvas {
-    display: block;
-    margin: auto;
-}
